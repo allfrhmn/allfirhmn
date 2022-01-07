@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio dengan Framework</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body class="bg-light">
+    <!--Navbar Awal-->
+    <nav class="navbar navbar-light fixed-top bg-dark shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand text-info fw-bold fs-4" href="#">allfrhmn</a>
+            <button class="btn btn-secondary btn-info px-2" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+              <ul class="dropdown-menu dropdown-menu-end" aria-label="dropdownMenuButton">
+                <li>
+                  <a class="dropdown-item" href="#home">Home</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#profile">Profile</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#skill">Skill</a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                  <a class="dropdown-item disabled" href="#brokenlink" tabindex="-1" aria-disabled="true">Link Mati</a>
+                </li>
+              </ul>
+        </div>
+    </nav>
+    <!--Navbar Akhir-->
+
+    <!--Section Home Awal-->
+    <section class="home py-5" id="home">
+        <div class="container-lg">
+            <div class="row min-vh-100 align-items-center align-content-center">
+                <div class="col-md-6">
+                    <div class="home-img text-center">
+                        <img src="img/profile.jpg" class="rounded-circle mw-100" alt="profile img">
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+                    <div class="home-text">
+                        <p class="text-muted mb-1">Halo Saya</p>
+                        <h1 class="text-info text-uppercase fs-1 fw-bold">Desainer Web</h1>
+                        <h2 class="fs-4">Allfiandi Rahman</h2>
+                        <p class="mt-4 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim minima ipsum perspiciatis et facere odio quidem ducimus laborum, minus explicabo architecto doloribus fugiat eligendi aliquid qui? Blanditiis voluptate a magni.</p>
+                        <a href="#portfolio" class="btn btn-info px-3 mt-3">Pekerjaan Saya</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section Home Akhir-->
+
+    <!--Section About Awal-->
+    <section class="about py-5" id="about">
+        <div class="container-lg">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Tentang Saya</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <h3 class="fs-4 mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis accusantium dolor nesciunt exercitationem in distinctio autem reiciendis voluptate. Esse nulla atque repellat recusandae odit ipsa rerum unde? In, accusantium quasi.</p>
+                    </div>
+                    <div class="row text-center text-uppercase my-3">
+                        <div class="col-sm-4">
+                            <div class="fact-item">
+                                <h4>100</h4>
+                                <p>Proyek Selesai</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="fact-item">
+                                <h4>95</h4>
+                                <p>Klien Senang</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="fact-item">
+                                <h4>90</h4>
+                                <p>Ulasan Terbaik</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 d-flex align-items-center">
+                            <a href="#" class="btn px-3 btn-info me-5">Download CV</a>
+                            <div class="social-links">
+                                <a href="#" class="text-dark me-2"><i class="fab fa-facebook"></i></a>
+                                <a href="#" class="text-dark me-2"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="text-dark me-2"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="text-dark me-2"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6">HTML</h3>
+                        <div class="progress" style="height: 5px;">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6">CSS</h3>
+                        <div class="progress" style="height: 5px;">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6">JAVASCRIPT</h3>
+                        <div class="progress" style="height: 5px;">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section About Akhir-->
+
+    <!--Section Service Awal-->
+        <section class="services py-5" id="services">
+            <div class="container-lg py-4">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="section-tittle text-center">
+                            <h2 class="fw-bold mb-5">Apa Yang Saya Lakukan</h2>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-md-6 col-lg-4 mb-4">
+                            <div class="service-item shadow-sm p-4 rounded bg-white">
+                                <div class="icon my-3 text-info fs-2">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <h3 class="fs-5 py-2">Pengembangan Web</h3>
+                                <p class="text-muted">Pekerjaan yang terlibat dalam mengembangkan suatu situs web untuk internet atau intranet.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-4">
+                            <div class="service-item shadow-sm p-4 rounded bg-white">
+                                <div class="icon my-3 text-info fs-2">
+                                    <i class="fas fa-lightbulb"></i>
+                                </div>
+                                <h3 class="fs-5 py-2">Desain Kreatif</h3>
+                                <p class="text-muted">Keseluruhan konsep visual dan estetika yang mendasari materi yang disajikan.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-4">
+                            <div class="service-item shadow-sm p-4 rounded bg-white">
+                                <div class="icon my-3 text-info fs-2">
+                                    <i class="fas fa-camera"></i>
+                                </div>
+                                <h3 class="fs-5 py-2">Fotografer</h3>
+                                <p class="text-muted">Umumnya memikirkan seni dan teknik untuk menghasilkan foto yang lebih bagus serta berusaha mengembangkan ilmunya.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--Section Service Akhir-->
+
+    <!--Section Portfolio Awal-->
+    <section class="portfolio" id="portfolio">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold">Karya Terbaru</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="img/portfolio/1.jpg" class="w-100 img-thumbnail" alt="portfolio-item">
+                        <h3 class="text-capitalize fs-5 my-2">bagian tim</h3>
+                        <p class="mb-4"><a href="#" class="text-info text-decoration-none">Demo Langsung</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="img/portfolio/2.jpg" class="w-100 img-thumbnail" alt="portfolio-item">
+                        <h3 class="text-capitalize fs-5 my-2">halaman arahan aplikasi</h3>
+                        <p class="mb-4"><a href="#" class="text-info text-decoration-none">Demo Langsung</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="img/portfolio/3.jpg" class="w-100 img-thumbnail" alt="portfolio-item">
+                        <h3 class="text-capitalize fs-5 my-2">bagian tim kreatif</h3>
+                        <p class="mb-4"><a href="#" class="text-info text-decoration-none">Demo Langsung</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="img/portfolio/4.jpg" class="w-100 img-thumbnail" alt="portfolio-item">
+                        <h3 class="text-capitalize fs-5 my-2">beralih tabel harga</h3>
+                        <p class="mb-4"><a href="#" class="text-info text-decoration-none">Demo Langsung</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="img/portfolio/5.jpg" class="w-100 img-thumbnail" alt="portfolio-item">
+                        <h3 class="text-capitalize fs-5 my-2">galeri gambar bootstrap 5</h3>
+                        <p class="mb-4"><a href="#" class="text-info text-decoration-none">Demo Langsung</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="img/portfolio/6.jpg" class="w-100 img-thumbnail" alt="portfolio-item">
+                        <h3 class="text-capitalize fs-5 my-2">galeri gambar dapat disaring</h3>
+                        <p class="mb-4"><a href="#" class="text-info text-decoration-none">Demo Langsung</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section Portfolio Akhir-->
+
+    <!--Section Tersedia Pekerja Lepas Awal-->
+    <section class="freelancer-avaible py-5 bg-info">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <p class="text-light fs-5">Apakah Anda Punya Proyek ?</p>
+                    <h1 class="fs-1 text-white mb-4">Saya Tersedia Untuk Proyek Pekerja Lepas</h1>
+                    <a href="#contact" class="btn btn-outline-light">Mengupahi Saya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section Tersedia Pekerja Lepas Akhir-->
+
+    <!--Section Kontak Awal-->
+    <section class="contact py-5" id="contact">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Kontak Saya</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="contact-item d-flex mb-3">
+                        <div class="icon fs-4 text-info">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="text">
+                            <h3 class="fs-5">Email</h3>
+                            <p class="text-muted m-0">allfi**********@mail***********</p>
+                        </div>
+                    </div>
+                    <div class="contact-item d-flex mb-3">
+                        <div class="icon fs-4 text-info">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3 class="fs-5">Telepon</h3>
+                            <p class="text-muted m-0">+62-878-36**-****</p>
+                        </div>
+                    </div>
+                    <div class="contact-item d-flex mb-3">
+                        <div class="icon fs-4 text-info">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="text">
+                            <h3 class="fs-5">Kunjungi Kantor</h3>
+                            <p class="text-muted m-0">Jln. Cikendal 1, Cimahi, 40534</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="contact-form">
+                        <form> 
+                            <div class="row">
+                                <div class="col-lg-6 mb-4">
+                                    <input type="text" placeholder="Nama Anda" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                </div>
+                                <div class="col-lg-6 mb-4">
+                                    <input type="text" placeholder="Email Anda" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 mb-4">
+                                    <input type="text" placeholder="Subyek" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 mb-4">
+                                    <textarea rows="5" placeholder="Pesan Anda" class="form-control form-control-lg fs-6 border-0 shadow-sm"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <button type="submit" class="btn btn-info px-3">Kirim Pesan</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section Kontak Akhir-->
+
+    <!--Footer Awal-->
+    <footer class="footer border-top py-4">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="m-0 text-center">&copy; 2021 Allfiandi Rahman</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Footer Akhir-->
+    
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
